@@ -1,0 +1,32 @@
+{
+  "datasets":[
+    {
+      "name":"Prescription data",
+      "cache":"./data/prescription_cache",
+      "label":"prescription_data",
+      "blocks":[
+        {
+          "name":"2018 December",
+          "label":"2018_12",
+          "sources":[
+            {
+              "name":"Chemical Names and BNF codes",
+              "label":"bnf_lookup",
+              "url":"https://files.digital.nhs.uk/80/3B12C6/T201812CHEM%20SUBS.csv"
+            },
+            {
+              "name":"Practice names and addresses",
+              "label":"practices",
+              "url":"https://files.digital.nhs.uk/4D/AED105/T201812ADDR%20BNFT.csv"
+            },
+            {
+              "name":"Prescribing data",
+              "label":"prescriptions",
+              "url":"https://files.digital.nhs.uk/BA/9B79CF/T201812PDPI%20BNFT.csv"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
