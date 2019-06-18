@@ -8,3 +8,6 @@ Summary Glossary:
 BNF code - The British National Formulary code is a unique code for every medical product that can be prescribed include
 none pharmaceutical and some alternative therapies.
 Chemical Formulation - A chemical composition for a medication, these are identical between generic and branded drugs.
+
+Description for BNF code layout
+https://ebmdatalab.net/prescribing-data-bnf-codes/
